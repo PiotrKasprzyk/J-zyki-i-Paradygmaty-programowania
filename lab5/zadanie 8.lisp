@@ -1,0 +1,5 @@
+(defun suma-kwadratow (start end)
+  (let ((sum 0))
+    (dotimes (i (+ (- end start) 1))
+      (setf sum (+ sum (expt (+ start i) 2))))
+    sum))

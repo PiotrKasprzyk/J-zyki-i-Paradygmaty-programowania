@@ -1,0 +1,7 @@
+(defun suma-nieparzystych (start end)
+  (let ((sum 0))
+    (dotimes (i (+ (- end start) 1))
+      (let ((current (+ start i)))
+        (when (oddp current)
+          (setf sum (+ sum current)))))
+    sum))
