@@ -1,0 +1,1 @@
+;;Zadanie 7: Procedura Filtr (Analiza Procedury)
