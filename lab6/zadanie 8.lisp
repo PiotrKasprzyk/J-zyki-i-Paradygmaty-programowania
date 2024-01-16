@@ -1,0 +1,5 @@
+(defun podzielne-przez-piec (stos)
+  (let ((wynik nil))
+    (dolist (elem stos wynik)
+      (when (zerop (mod elem 5))
+        (push elem wynik)))))

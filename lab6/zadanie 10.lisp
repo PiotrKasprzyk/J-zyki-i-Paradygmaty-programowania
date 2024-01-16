@@ -1,0 +1,5 @@
+(defun lista-znakow-ascii (od do)
+  (let ((wynik nil))
+    (do ((i od (1+ i)))
+        ((> i do) (nreverse wynik))
+      (push (code-char i) wynik))))
